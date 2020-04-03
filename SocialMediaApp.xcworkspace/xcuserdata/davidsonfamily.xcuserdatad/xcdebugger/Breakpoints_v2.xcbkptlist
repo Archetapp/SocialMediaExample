@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "98D4E076-14FC-4D31-85B1-B591384C2722"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFA08B56-8CF4-4A10-9696-0EB1EB4740B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "Login(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9189805-48FE-46DE-B1F0-599F1EBAA65C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "Login(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF97A623-7A4A-4772-8CB6-CE86CC0721A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFE6A9F9-171C-40C5-87FB-EDF39A0D93E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "451B161D-EE75-452D-B2D7-9A71B876167B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "Login(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "451B161D-EE75-452D-B2D7-9A71B876167B - c5f3b27a795e1cd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.Login(completion: (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "451B161D-EE75-452D-B2D7-9A71B876167B - c770cbbe66ed6576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SocialMediaApp.SignInView.Login(completion: (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "214">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SignInView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - 73476f67ad6f710a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of SocialMediaApp.SignInView.password : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - 6068b04d3e6a2020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.password.getter : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - 957c6447b282d03c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.password.setter : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "207">
+               </Location>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - 2a62868c277af423"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.password.modify : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - 19993800e651983c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.password.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - 31630c3e8a6cd564"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.$password.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "229">
+               </Location>
+               <Location
+                  uuid = "5B485B2E-69AE-4FB7-9E8D-DCE34A277F7B - aaf11886b53a77fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.init() -&gt; SocialMediaApp.SignInView"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "310">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/SignInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SignInView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - 39141e15d7cff098"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of SocialMediaApp.SignInView.email : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - 654dcc593af084b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.email.getter : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - 32298c19a76bb4c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.email.setter : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "207">
+               </Location>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - 9fd0702aa423a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.email.modify : Swift.String"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - ec800d41d91d7ac2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.email.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - 33a10d241718db8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.$email.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "229">
+               </Location>
+               <Location
+                  uuid = "0E45DA60-B183-4A93-A5DA-8615282734AF - aaf11886b53a77fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialMediaApp.SignInView.init() -&gt; SocialMediaApp.SignInView"
+                  moduleName = "SocialMediaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "121">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
