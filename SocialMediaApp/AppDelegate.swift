@@ -8,6 +8,10 @@
 
 import UIKit
 import Firebase
+import RealmSwift
+
+var uiRealm = try! Realm()
+var mainUser : User?
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

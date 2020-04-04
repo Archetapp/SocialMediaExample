@@ -18,9 +18,15 @@
 		1D8EBA8824365DF3009EB9F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EBA8724365DF3009EB9F3 /* GoogleService-Info.plist */; };
 		1D8EBA8A24365F4D009EB9F3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBA8924365F4D009EB9F3 /* SignInView.swift */; };
 		1D8EBA8C24379F5C009EB9F3 /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBA8B24379F5C009EB9F3 /* RealmData.swift */; };
-		4A44A4DB475208670FBF7A97 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF20DFB43CF8C1F294BA116 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework */; };
-		825CF9CBA30934C81688ED66 /* Pods_SocialMediaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D0CEA95F5582D52DCCDCB8 /* Pods_SocialMediaApp.framework */; };
-		CDF4EC00F632DCDD0E7338BC /* Pods_SocialMediaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BE7A68D4C2671D86E5079A /* Pods_SocialMediaAppTests.framework */; };
+		1D8EBA8E2437D025009EB9F3 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBA8D2437D025009EB9F3 /* TabViewController.swift */; };
+		1D8EBA902437D303009EB9F3 /* Pods_SocialMediaApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4D0CEA95F5582D52DCCDCB8 /* Pods_SocialMediaApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1DDF67B624390FEE0021A377 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67B524390FEE0021A377 /* ProfileView.swift */; };
+		1DDF67B8243910220021A377 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67B7243910220021A377 /* ExploreView.swift */; };
+		1DDF67BA2439103D0021A377 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67B92439103D0021A377 /* CreatePostView.swift */; };
+		1DDF67BC243910590021A377 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67BB243910590021A377 /* NotificationView.swift */; };
+		22B5A381CA314BCD00CD2222 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50FA3814386A0AF7FAD37D /* Pods_SocialMediaApp_SocialMediaAppUITests.framework */; };
+		D023A25D35DE50EE35A8170F /* Pods_SocialMediaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18334B677A454EF323A738D8 /* Pods_SocialMediaAppTests.framework */; };
+		E8918066F05D68B4CAF64778 /* Pods_SocialMediaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EE5F4C516A746E39C5B673 /* Pods_SocialMediaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1D8EBA912437D303009EB9F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1D8EBA902437D303009EB9F3 /* Pods_SocialMediaApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		02C8A0C53F9D7F8D3F056D77 /* Pods-SocialMediaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaAppTests.release.xcconfig"; path = "Target Support Files/Pods-SocialMediaAppTests/Pods-SocialMediaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		18334B677A454EF323A738D8 /* Pods_SocialMediaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8EBA5424364CBB009EB9F3 /* SocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8EBA5724364CBB009EB9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D8EBA5924364CBB009EB9F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,13 +80,18 @@
 		1D8EBA8724365DF3009EB9F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1D8EBA8924365F4D009EB9F3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		1D8EBA8B24379F5C009EB9F3 /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
-		34BE7A68D4C2671D86E5079A /* Pods_SocialMediaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EF20DFB43CF8C1F294BA116 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaApp_SocialMediaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8EBA8D2437D025009EB9F3 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		1DDF67B524390FEE0021A377 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1DDF67B7243910220021A377 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		1DDF67B92439103D0021A377 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		1DDF67BB243910590021A377 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		7AAE49033D422E927BD9BC91 /* Pods-SocialMediaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SocialMediaAppTests/Pods-SocialMediaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2F84E45C686E2BE1EFE6DEC /* Pods-SocialMediaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.release.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.release.xcconfig"; sourceTree = "<group>"; };
 		B4D0CEA95F5582D52DCCDCB8 /* Pods_SocialMediaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3B9A0E71C80574C5651765 /* Pods-SocialMediaApp-SocialMediaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp-SocialMediaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp-SocialMediaAppUITests/Pods-SocialMediaApp-SocialMediaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C530C6E78C59E09AA4CCEF36 /* Pods-SocialMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.debug.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C7EE5F4C516A746E39C5B673 /* Pods_SocialMediaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB50FA3814386A0AF7FAD37D /* Pods_SocialMediaApp_SocialMediaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaApp_SocialMediaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55D7C0A73C96BE5E332FDCB /* Pods-SocialMediaApp-SocialMediaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp-SocialMediaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp-SocialMediaAppUITests/Pods-SocialMediaApp-SocialMediaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825CF9CBA30934C81688ED66 /* Pods_SocialMediaApp.framework in Frameworks */,
+				E8918066F05D68B4CAF64778 /* Pods_SocialMediaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF4EC00F632DCDD0E7338BC /* Pods_SocialMediaAppTests.framework in Frameworks */,
+				D023A25D35DE50EE35A8170F /* Pods_SocialMediaAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A44A4DB475208670FBF7A97 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework in Frameworks */,
+				22B5A381CA314BCD00CD2222 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +132,7 @@
 				1D8EBA5524364CBB009EB9F3 /* Products */,
 				D0EB0F966FC06D77F7201F71 /* Pods */,
 				E90DBDDADC4C510D6D01B034 /* Frameworks */,
+				1DDF67B42438CA4B0021A377 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +153,11 @@
 				1D8EBA5924364CBB009EB9F3 /* SceneDelegate.swift */,
 				1D8EBA8B24379F5C009EB9F3 /* RealmData.swift */,
 				1D8EBA5B24364CBB009EB9F3 /* ContentView.swift */,
+				1D8EBA8D2437D025009EB9F3 /* TabViewController.swift */,
+				1DDF67B524390FEE0021A377 /* ProfileView.swift */,
+				1DDF67B7243910220021A377 /* ExploreView.swift */,
+				1DDF67B92439103D0021A377 /* CreatePostView.swift */,
+				1DDF67BB243910590021A377 /* NotificationView.swift */,
 				1D8EBA8924365F4D009EB9F3 /* SignInView.swift */,
 				1D8EBA5D24364CBE009EB9F3 /* Assets.xcassets */,
 				1D8EBA6224364CBE009EB9F3 /* LaunchScreen.storyboard */,
@@ -162,6 +194,14 @@
 			path = SocialMediaAppUITests;
 			sourceTree = "<group>";
 		};
+		1DDF67B42438CA4B0021A377 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0CEA95F5582D52DCCDCB8 /* Pods_SocialMediaApp.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		D0EB0F966FC06D77F7201F71 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,9 +218,9 @@
 		E90DBDDADC4C510D6D01B034 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4D0CEA95F5582D52DCCDCB8 /* Pods_SocialMediaApp.framework */,
-				3EF20DFB43CF8C1F294BA116 /* Pods_SocialMediaApp_SocialMediaAppUITests.framework */,
-				34BE7A68D4C2671D86E5079A /* Pods_SocialMediaAppTests.framework */,
+				C7EE5F4C516A746E39C5B673 /* Pods_SocialMediaApp.framework */,
+				CB50FA3814386A0AF7FAD37D /* Pods_SocialMediaApp_SocialMediaAppUITests.framework */,
+				18334B677A454EF323A738D8 /* Pods_SocialMediaAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,7 +236,8 @@
 				1D8EBA5024364CBB009EB9F3 /* Sources */,
 				1D8EBA5124364CBB009EB9F3 /* Frameworks */,
 				1D8EBA5224364CBB009EB9F3 /* Resources */,
-				50A5109786F2D5F1EFED210D /* [CP] Embed Pods Frameworks */,
+				1D8EBA912437D303009EB9F3 /* Embed Frameworks */,
+				4F315A145B1E7885251F9698 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +275,7 @@
 				1D8EBA7124364CBE009EB9F3 /* Sources */,
 				1D8EBA7224364CBE009EB9F3 /* Frameworks */,
 				1D8EBA7324364CBE009EB9F3 /* Resources */,
-				ECFD6A56BC1CEA600881EE30 /* [CP] Embed Pods Frameworks */,
+				E79E227A94BE4DAD91AB7423 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,7 +381,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		50A5109786F2D5F1EFED210D /* [CP] Embed Pods Frameworks */ = {
+		4F315A145B1E7885251F9698 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,7 +442,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ECFD6A56BC1CEA600881EE30 /* [CP] Embed Pods Frameworks */ = {
+		E79E227A94BE4DAD91AB7423 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,11 +466,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8EBA8E2437D025009EB9F3 /* TabViewController.swift in Sources */,
 				1D8EBA5824364CBB009EB9F3 /* AppDelegate.swift in Sources */,
 				1D8EBA5A24364CBB009EB9F3 /* SceneDelegate.swift in Sources */,
 				1D8EBA8C24379F5C009EB9F3 /* RealmData.swift in Sources */,
 				1D8EBA8A24365F4D009EB9F3 /* SignInView.swift in Sources */,
+				1DDF67BA2439103D0021A377 /* CreatePostView.swift in Sources */,
+				1DDF67B624390FEE0021A377 /* ProfileView.swift in Sources */,
+				1DDF67B8243910220021A377 /* ExploreView.swift in Sources */,
 				1D8EBA5C24364CBB009EB9F3 /* ContentView.swift in Sources */,
+				1DDF67BC243910590021A377 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

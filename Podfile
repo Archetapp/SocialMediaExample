@@ -11,6 +11,7 @@ target 'SocialMediaApp' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Database'
 	pod 'RealmSwift'
+	pod 'Firebase/MLVision'
 
 
   target 'SocialMediaAppTests' do

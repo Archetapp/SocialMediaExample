@@ -94,9 +94,9 @@
                   urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "516">
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "40">
                </Location>
                <Location
                   uuid = "451B161D-EE75-452D-B2D7-9A71B876167B - c770cbbe66ed6576"
@@ -109,8 +109,8 @@
                   urlString = "file:///Users/davidsonfamily/Desktop/SocialMediaApp/SocialMediaApp/SignInView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
                   offsetFromSymbolStart = "214">
                </Location>
             </Locations>
@@ -360,6 +360,22 @@
                   offsetFromSymbolStart = "121">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDC09EFE-DAD7-4F28-8CD3-8749034889AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialMediaApp/TabViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
