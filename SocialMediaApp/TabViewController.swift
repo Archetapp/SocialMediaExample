@@ -22,11 +22,9 @@ struct tabViewController : View {
                 .tabItem({
                     Text("Explore")
                 }).tag(1)
-            RandomView()
+            CreatePostView()
                 .tabItem({
-                    Text("Create").onTapGesture {
-                        self.isPresented = true
-                    }
+                    Text("Create")
                 }).tag(2)
             NotificationView()
                 .tabItem({
@@ -36,7 +34,7 @@ struct tabViewController : View {
                 .tabItem({
                     Text("Explore")
                 }).tag(4)
-        }.sheet(isPresented: $isPresented, content: {CreatePostView()})
+            }.sheet(isPresented: $isPresented, content: {CreatePostView()})
     }
 }
 

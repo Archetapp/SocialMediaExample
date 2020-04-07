@@ -20,6 +20,7 @@
 		1D8EBA8C24379F5C009EB9F3 /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBA8B24379F5C009EB9F3 /* RealmData.swift */; };
 		1D8EBA8E2437D025009EB9F3 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EBA8D2437D025009EB9F3 /* TabViewController.swift */; };
 		1D8EBA902437D303009EB9F3 /* Pods_SocialMediaApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4D0CEA95F5582D52DCCDCB8 /* Pods_SocialMediaApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1D9AB3D7243B935200AB2FFA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AB3D6243B935200AB2FFA /* ImageLoader.swift */; };
 		1DDF67B624390FEE0021A377 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67B524390FEE0021A377 /* ProfileView.swift */; };
 		1DDF67B8243910220021A377 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67B7243910220021A377 /* ExploreView.swift */; };
 		1DDF67BA2439103D0021A377 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF67B92439103D0021A377 /* CreatePostView.swift */; };
@@ -81,6 +82,7 @@
 		1D8EBA8924365F4D009EB9F3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		1D8EBA8B24379F5C009EB9F3 /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
 		1D8EBA8D2437D025009EB9F3 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		1D9AB3D6243B935200AB2FFA /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		1DDF67B524390FEE0021A377 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1DDF67B7243910220021A377 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		1DDF67B92439103D0021A377 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				1D8EBA5924364CBB009EB9F3 /* SceneDelegate.swift */,
 				1D8EBA8B24379F5C009EB9F3 /* RealmData.swift */,
 				1D8EBA5B24364CBB009EB9F3 /* ContentView.swift */,
+				1D9AB3D6243B935200AB2FFA /* ImageLoader.swift */,
 				1D8EBA8D2437D025009EB9F3 /* TabViewController.swift */,
 				1DDF67B524390FEE0021A377 /* ProfileView.swift */,
 				1DDF67B7243910220021A377 /* ExploreView.swift */,
@@ -471,6 +474,7 @@
 				1D8EBA5A24364CBB009EB9F3 /* SceneDelegate.swift in Sources */,
 				1D8EBA8C24379F5C009EB9F3 /* RealmData.swift in Sources */,
 				1D8EBA8A24365F4D009EB9F3 /* SignInView.swift in Sources */,
+				1D9AB3D7243B935200AB2FFA /* ImageLoader.swift in Sources */,
 				1DDF67BA2439103D0021A377 /* CreatePostView.swift in Sources */,
 				1DDF67B624390FEE0021A377 /* ProfileView.swift in Sources */,
 				1DDF67B8243910220021A377 /* ExploreView.swift in Sources */,

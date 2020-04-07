@@ -9,32 +9,83 @@
 import SwiftUI
 import UIKit
 import FirebaseMLVision
+import Firebase
+import RealmSwift
 
-struct ContentView: View {
+class FeedFetcher : ObservableObject {
+    @State var dataIsLoaded: Bool = false
     
-    @ObservedObject var postStorage = PostStore()
     
+    var documents: [DocumentSnapshot] = []
+    
+    fileprivate func baseQuery() -> Query {
+        return Firestore.firestore().collection("Posts").limit(to: 50)
+    }
+    
+    fileprivate var query: Query?
     
     init() {
+        self.query = baseQuery()
+        self.LoadPosts(completion: { completed in
+            self.dataIsLoaded.toggle()
+        })
+    }
+    
+    func LoadPosts(completion : @escaping(_ completion : Bool) -> ()) {
+           print(uiRealm.objects(Post.self))
+           query?.addSnapshotListener { (documents, error) in
+               guard let snapshot = documents else {
+                   print("Error fetching documents results: \(error!)")
+                   return
+               }
+               for snap in snapshot.documents {
+                   let imageURL = snap.data()["imageURL"] as? String
+                   let description = snap.data()["description"] as? String
+                   print(snap.data())
+                   let height = snap.data()["height"] as? Float
+                   let width = snap.data()["width"] as? Float
+                   let user = snap.data()["user"] as? String
+                   let id = snap.data()["id"] as? String
+
+                   let post = Post()
+                   post.postID = id
+                   post.fullImage = imageURL
+                   post.message = description
+                   post.height.value = height
+                   post.width.value = width
+                   post.username = user
+                   post.writeToRealm()
+            }
+            completion(true)
+        }
+    }
+}
+
+struct ContentView: View {
+    @ObservedObject var feed = FeedFetcher()
+    
+    init() {
+//        let allPostObjects = uiRealm.objects(Post.self)
+//        try! uiRealm.write {
+//            uiRealm.delete(allPostObjects)
+//        }
         UITableView.appearance().separatorColor = .clear
     }
     
     var body: some View {
         NavigationView {
             ZStack {
-                List(0 ..< 5) {_ in
-                    PostView()
-                }.padding(0)
+                List {
+                    ForEach(uiRealm.objects(Post.self), id: \Post.self, content: { object in
+                        PostView(post: object)
+                    })
+                }.listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
             }.navigationBarTitle("Home").navigationBarItems(trailing: Button(action: {
                 }, label: {
                     Image("MoreComment").renderingMode(.original)
                 }).allowsHitTesting(false)
-            )
+            ).padding(0)
         }
-    }
-    
-    func LoadPosts() {
-        
     }
 }
 
@@ -50,15 +101,25 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct PostView: View {
+    var aspectRatio = CGFloat()
+    var currentPost = Post()
+    init(post : Post) {
+        print("width", UIScreen.main.bounds.width)
+       currentPost = post
+        guard let width = currentPost.width.value, let height = currentPost.height.value else { return }
+        print(width, height)
+        aspectRatio = CGFloat(height / width)
+        print(aspectRatio)
+    }
+    
     @State var presented : Bool = false
     var body: some View {
         ZStack {
             ZStack {
                 VStack {
-                    Image("Screen Shot 2020-04-01 at 2.42.18 PM")
-                        .resizable().aspectRatio(contentMode: .fit)
+                    AsyncImage(url: URL(string: currentPost.fullImage ?? "")!, placeholder: Text("... Loading"), cache: TemporaryImageCache()).frame(height: aspectRatio * (UIScreen.main.bounds.width - 80), alignment: .top)
                     HStack(alignment: .top) {
-                        Text("Hey Guys, this is Jared, I just really wanted to say thanks for all the support, you guys are the best and I hope that  best for you and your family.").font(.footnote).fontWeight(.light).foregroundColor(Color.black).padding()
+                        Text(currentPost.message ?? "").font(.footnote).fontWeight(.light).foregroundColor(Color.black).padding()
                         Spacer()
                         Text("21D").font(.caption).fontWeight(.light).multilineTextAlignment(.center).padding().frame(alignment: .topTrailing)
                     }
@@ -78,7 +139,7 @@ struct PostView: View {
                         }).padding().buttonStyle(PlainButtonStyle())
                     }
                 }.background(Color.white).cornerRadius(10)
-            }.shadow(radius: 10).frame(alignment: .center).padding(10)
+            }.shadow(radius: 10).frame(alignment: .center)
         }.sheet(isPresented: $presented, onDismiss: {self.presented = false}, content: {RandomView()})
     }
 }

@@ -41,7 +41,14 @@ class Post : Object {
     var numOfLike = RealmOptional<Int>()
     var numOfComments = RealmOptional<Int>()
     var numOfProducts = RealmOptional<Int>()
-    var imageRatio = RealmOptional<Float>()
+    var height = RealmOptional<Float>()
+    var width = RealmOptional<Float>()
+    
+    //For Testing
+    
+    
+    @objc dynamic var username : String? = nil
+    
     override static func primaryKey() -> String? {
         return "postID"
     }
@@ -96,9 +103,10 @@ func postExistsCheck(_ postID : String) -> Post? {
     return uiRealm.object(ofType: Post.self, forPrimaryKey: postID)
 }
 
+
 extension Post {
     func writeToRealm() {
-        if postExistsCheck(self.postID!) != nil {
+        if postExistsCheck(self.postID ?? "") != nil {
             return
         }
         try! uiRealm.write({
@@ -155,9 +163,7 @@ func handlePostData(snapshot : DataSnapshot, completion : @escaping (_ post : Po
         let smallImageURL = (snapshot.value as! NSDictionary)["smallImageURL"] as! String?
         let mediumImageURL = (snapshot.value as! NSDictionary)["mediumImageURL"] as! String?
         let fullImageURL = (snapshot.value as! NSDictionary)["fullImageURL"] as! String?
-        if let imageRatio = (snapshot.value as! NSDictionary)["imageRatio"] as? NSNumber {
-            newPost.imageRatio.value = Float(truncating: imageRatio)
-        }
+
         print(snapshot)
         let message = (snapshot.value as! NSDictionary)["bodyText"] as! String?
         
