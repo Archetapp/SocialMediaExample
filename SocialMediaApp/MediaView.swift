@@ -131,7 +131,6 @@ struct GridCell: View {
     init(imageTemp : PHAsset) {
         image = imageTemp
     }
-    var imageVIEW2 = UIImageView()
     
     @State var uiImage : UIImage?
     func loadImageBasedOnPHAsset(completion : @escaping(_ resultado : UIImage?) -> ()){
