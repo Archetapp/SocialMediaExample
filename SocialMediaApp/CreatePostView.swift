@@ -10,11 +10,12 @@ import Foundation
 import SwiftUI
 import RealmSwift
 import Firebase
+import UIKit
 
 struct CreatePostView: View {
     var body : some View {
         HStack {
-            Text("Create Post View")
+            MediaView()
         }
     }
 }
